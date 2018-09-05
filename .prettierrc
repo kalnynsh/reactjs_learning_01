@@ -21,3 +21,7 @@ overrides:
 - files: '*.css'
   options:
     parser: css
+- files: '*.log'
+    options:
+      parser: text
+      printWidth: 150
