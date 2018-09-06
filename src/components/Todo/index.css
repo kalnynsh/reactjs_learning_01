@@ -1,0 +1,14 @@
+.todo-container {
+    padding: 12px;
+    margin: 15px;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.delete-button {
+    color: red;
+    margin-left: 15px;
+    cursor: pointer;
+  }
