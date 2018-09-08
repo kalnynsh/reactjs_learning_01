@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-// import CardNumberInput from '../CardNumberInput';
 import ControlledCardNumberInput from '../ControlledCardNumberInput';
 import './CardNumberHolder.css';
 
 class CardNumberHolder extends Component {
     constructor(props) {
         super(props);
-        // this.refInput = React.createRef();
         this.state = {
             cardNumber: '',
             normalizedNumber: ''
