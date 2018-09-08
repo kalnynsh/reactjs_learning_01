@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import CardNumberHolder from '../CardNumberHolder';
 import './Switcher.css';
 
 class Switcher extends Component {
@@ -28,7 +27,7 @@ class Switcher extends Component {
                                 <li
                                     className="component-list__name"
                                     data-id={index}
-                                    key={'.' + index}
+                                    key={index}
                                     onClick={this.handleChangeChild}
                                 >
                                     {element.type.displayName
