@@ -9,7 +9,7 @@ export default function ControlledCardNumberInput(props) {
   return (
     <label>
         Card numbers:
-        <input
+        <input data-input="card-number-input"
           value={props.number}
           onChange={props.handleChange}
           placeholder="0000 0000 0000 0000"

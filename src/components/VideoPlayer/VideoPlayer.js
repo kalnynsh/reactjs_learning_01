@@ -8,6 +8,8 @@ class VideoPlayer extends PureComponent {
         this.playerRef = React.createRef();
     }
 
+    static displayName = 'Video player';
+
     playVideoHandler = () => {
         this.playerRef.current.play();
     };
