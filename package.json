@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "bootstrap": "^4.1.3",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
     "react-router-dom": "^4.3.1",
@@ -13,6 +14,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "check-prettier": "prettier --config ./.prettierrc --list-different src/**/*.js",
+    "prittier-fix": "yarn prettier --config ./.prettierrc --write src/**/*.js",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
@@ -20,6 +23,7 @@
     "cypress": "^3.1.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.4.0",
-    "eslint-plugin-cypress": "^2.0.1"
+    "eslint-plugin-cypress": "^2.0.1",
+    "prettier": "^1.14.2"
   }
 }
