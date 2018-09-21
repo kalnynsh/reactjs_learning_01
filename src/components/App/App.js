@@ -5,6 +5,7 @@ import Public from '../Public';
 import Private from '../Private';
 import Login from '../Login';
 import PrivateRoute from '../PrivateRoute';
+import Hobbies from '../Hobbies';
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -27,11 +28,13 @@ class App extends PureComponent {
             <nav>
               <Link to="/"> Home /</Link>
               <Link to="/private"> Private page /</Link>
+              <Link to="/hobbies"> Hobbies /</Link>
               <Link to="/login"> Login </Link>
             </nav>
             <hr />
             <Switch>
               <Route path="/" exact component={Public} />
+              <Route path="/hobbies" component={Hobbies} />
               <Route path="/login" component={Login} />
               <PrivateRoute path="/private" component={Private} />
               <Redirect to="/" />
