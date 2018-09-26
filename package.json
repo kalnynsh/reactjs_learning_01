@@ -5,7 +5,9 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-redux": "^5.0.7",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -13,12 +15,15 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "cypress:open": "cypress open",
-    "cypress:run": "cypress run"
+    "cypress:run": "cypress run",
+    "check-prettier": "prettier --config ./.prettierrc --list-different src/**/*.js",
+    "prettier-fix": "yarn prettier --config ./.prettierrc --write src/**/*.js"
   },
   "devDependencies": {
     "cypress": "^3.1.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.4.0",
-    "eslint-plugin-cypress": "^2.0.1"
+    "eslint-plugin-cypress": "^2.0.1",
+    "prettier": "^1.14.3"
   }
 }
