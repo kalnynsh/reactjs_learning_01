@@ -1,0 +1,26 @@
+.order {
+  margin: 5px 0;
+  padding: 10px;
+  background-color: #d1d1ff;
+  border-radius: 3px;
+}
+
+.order__upper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.order__lower {
+  padding: 0;
+  margin: 0;
+}
+
+.p__order {
+  padding: 0;
+  margin: 0;
+}
+
+.order__price {
+    color: red;
+}

@@ -1,10 +1,12 @@
 import { combineReducers } from 'redux';
-import comments from './comments';
-import users from './users';
+import market from './market';
+import farm from './farm';
+import budget from './budget';
 
 const reducers = combineReducers({
-    comments,
-    users
+    market,
+    farm,
+    budget,
 });
 
 export default reducers;
