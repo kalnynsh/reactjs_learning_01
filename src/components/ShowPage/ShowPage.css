@@ -1,0 +1,19 @@
+.t-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.preview__image {
+    width: 100%;
+    margin: 10px;
+}
+
+.t-person {
+    display: block;
+    margin: 15px;
+}
+
+.error {
+    color: red;
+}

@@ -1,0 +1,23 @@
+.t-preview {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+}
+
+.t-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.t-image__link {
+    margin: 6px;
+}
+
+.t-image__content {
+    width: 100%;
+}
+
+.t-preview__description {
+    margin: 12px;
+}

@@ -5,13 +5,20 @@
   "dependencies": {
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.0",
+    "redux-actions": "^2.6.1",
+    "styled-components": "^3.4.9"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
+    "prettier-fix": "yarn prettier --config ./.prettierrc --write src/**/*.js",
+    "check-prettier": "prettier --config ./.prettierrc --list-different src/**/*.js",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run"
   },
@@ -19,6 +26,8 @@
     "cypress": "^3.1.0",
     "enzyme": "^3.6.0",
     "enzyme-adapter-react-16": "^1.4.0",
-    "eslint-plugin-cypress": "^2.0.1"
+    "eslint": "^5.6.1",
+    "eslint-plugin-cypress": "^2.0.1",
+    "prettier": "^1.14.3"
   }
 }
